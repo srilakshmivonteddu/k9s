@@ -1,0 +1,6 @@
+docker run --rm -it -v $KUBECONFIG:/root/.kube/config quay.io/derailed/k9s
+sudo wget -qO- https://github.com/derailed/k9s/releases/download/v0.24.1/k9s_Linux_x86_64.tar.gz | tar zxvf -  -C /tmp/
+sudo mv /tmp/k9s /usr/local/bin
+
+
+https://medium.com/flant-com/k9s-terminal-ui-for-kubernetes-aeead8b0303f
